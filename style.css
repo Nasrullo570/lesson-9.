@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+
+
+
+}
+
+.body .navbar {
+    background: #222;
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+
+
+
+
+
+
+}
+
+.body .main {
+    margin-left: 120px;
+    background: black;
+    width: calc(100% - 120px);
+
+
+
+
+
+
+}
+
+.body .navbar .avatar img {
+    width: 100%;
+}
+
+.body .navbar .menu a {
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.body .navbar .menu a:first-child {
+    background: #000;
+    color: #fff;
+
+}
+
+.body .navbar .menu a:hover {
+    background: #000;
+}
+
+
+.main .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 64px 0;
+
+}
+
+.main .home {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .home h1 {
+    font-size: 64px;
+}
+
+.main .home img {
+    width: 100%;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.content-title h2 {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 40px;
+    color: #fff;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+
+}
+
+.content-title hr {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.about p {
+    color: #757575;
+    text-align: justify;
+    word-break: break-word
+}
+
+.about .skill h3 {
+    color: #fff;
+    margin: 10px 0;
+    padding: 16px 0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.about .skill ul {
+    list-style: none;
+}
+
+.about .skill ul li {
+    margin-bottom: 20PX;
+}
+
+
+.about .skill ul li p {
+    letter-spacing: 4px;
+    margin: 10px 0;
+
+}
+
+.about .skill ul li .back {
+    background: #fff;
+    width: 100%;
+
+}
+
+.about .skill ul li .back .line {
+    background: #616161;
+    height: 28px;
+    width: 80%;
+}
+
+.about .skill ul li .back .html {
+    width: 70%;
+}
+
+.about .skill ul li .back .html span {
+    margin-left: 95%;
+    line-height: 30px;
+    cursor: pointer;
+
+
+}
+
+.about .skill ul li .back .html span:hover {
+    color: #fff;
+}
+
+.about .skill ul li .back .css {
+    width: 40%;
+}
+
+.about .skill ul li .back .css span {
+    margin-left: 91%;
+    line-height: 30px;
+}
+
+.about .skill ul li .back .css span:hover {
+    color: #fff;
+    cursor: pointer;
+
+
+}
+
+.about .skill ul li .back .js {
+    width: 10%;
+}
+
+.about .skill ul li .back .js span {
+
+    margin-left: 65%;
+    line-height: 30px;
+}
+
+.about .skill ul li .back .js span:hover {
+    color: #fff;
+    cursor: pointer;
+
+
+
+}
+
+.main .con {
+    width: 980px;
+    margin-left: 125px;
+}
+
+.con {
+
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    background: #f1f1f1;
+    padding: 16px 0;
+    margin: 16px 0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+
+}
+
+.con .dann {
+    margin: 16px 0;
+}
+
+.con span {
+
+    font-size: 16px;
+}
+
+
+
+
+.con .dann p {
+
+    text-align: center;
+}
+
+.con .dann2 {
+    margin: 16px 0;
+}
+
+
+
+
+.con .dann2 p {
+    text-align: center;
+}
+
+.con .dann3 p {
+    text-align: center;
+}
+
+.con .dann3 {
+
+    margin: 16px 0;
+}
+
+.con .dann4 p {
+    text-align: center;
+}
+
+.con .dann4 {
+    margin: 16px 0;
+}
+
+.bot {
+
+    margin-left: 125px;
+}
+
+.bot button {
+    color: #000;
+    background: #f1f1f1;
+    border: 0;
+
+    padding: 12px 24px;
+    margin: 16px 0 16px 0;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+.bot button:hover {
+    background: #ccc;
+
+}
+
+.main .dwo {
+    color: white;
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.main .e {
+
+    display: flex;
+    /* justify-content: center; */
+}
+
+
+.main .one {
+
+    width: 485px;
+    list-style: none;
+    /* opacity: .6; */
+
+}
+
+.main .one:hover {
+    opacity: 1;
+}
+
+
+.main .one2 {
+
+
+    width: 485px;
+
+    margin: 0 10px;
+    border: 0;
+}
+
+.one .q {
+    padding: 40px 180px;
+}
+
+.one .fota {
+    padding: 20px 180px;
+}
+
+.one button {
+    margin-left: 180px;
+    padding: 15px;
+    border: 0;
+
+
+}
+
+.one .fota2 {
+    padding: 10px 0;
+
+
+
+}
+
+.about .number-box {
+    display: flex;
+}
+
+.about .number-box .box {
+    background: white;
+    width: 25%;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main .one ul li {
+    color: black;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    /* padding: 10px; */
+
+    list-style: none;
+
+}
+
+.main .one .q {
+    background: #616161;
+
+}
+
+main .one ul li h3 {}
+
+main .one ul li span {}
+
+main .one ul li button {}
+
+
+
+
+
+
+
+
+
+.about .rasm .info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about .rasm .info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about .rasm .text p {
+    line-height: 30px;
+}

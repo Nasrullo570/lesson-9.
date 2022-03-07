@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.container .navbar {
+    width: 120px;
+    position: fixed;
+    height: 100vh;
+    background: #222;
+}
+
+.container .navbar .avatar {
+    width: 100%;
+    height: 125px;
+}
+
+.container .navbar .avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.container .navbar .menu a:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .navbar .menu a:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .navbar .menu a:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .navbar .menu a:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .navbar .menu a i {
+    margin-bottom: 10px;
+    font-size: 29px;
+}
+
+.container .navbar .menu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 12px;
+}
+
+.container .navbar .menu a:hover {
+    background: black;
+}
+
+.container .navbar .menu a:first-child {
+    background: black;
+    color: white;
+}
+
+.container .navbar .menu a:first-child:hover {
+    background: #ccc;
+    color: #000;
+}
+
+.container .main {
+    background: #000;
+    width: 100%;
+    margin-left: 120px;
+    padding: 44px 40px;
+    width: calc(100%-120px);
+}
+
+.container .main img {
+    width: 100%;
+    height: 100;
+}
+
+.container .main .fota h3,
+p {
+    text-align: center;
+    color: #fff;
+}
+
+.container .main .fota h3 {
+    margin-top: 50px;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.container .main .fota p {
+    margin: 15px 0;
+}
+
+.container .main .box {
+    max-width: 980px;
+    padding: 64px 0;
+    margin: 0 auto;
+}
+
+.container .main .box .about h3 {
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.about hr {
+    margin: 20px 0;
+    border-top: 1px solid #eee;
+    opacity: .6;
+    width: 200px;
+    height: 0;
+}
+
+.container .about p {
+    color: #757575;
+    text-align: justify;
+    word-break: break-word;
+}
+
+.container .main .box .about h2 {
+    color: white;
+    padding: 26px 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container .main .box .about .foiz .white {
+    color: black;
+    background: #fff;
+}
+
+.container .main .box .about .foiz .white .green {
+    width: 95%;
+    height: 28px;
+    color: white;
+    background: #616161;
+}
+
+.green span {
+    line-height: 30px;
+    margin-left: 890px;
+}
+
+.green1 span {
+    line-height: 30px;
+    margin-left: 650px;
+}
+
+.green2 span {
+    line-height: 30px;
+    margin-left: 450px;
+}
+
+.container .main .box .about .foiz .white .green1 {
+    width: 70%;
+    height: 28px;
+    color: white;
+    background: #616161;
+}
+
+.container .main .box .about .foiz .white .green2 {
+    width: 50%;
+    height: 28px;
+    color: white;
+    background: #616161;
+}
+
+.container .foiz p {
+    letter-spacing: 4px;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.container .main .oq {
+    color: black;
+    background: #f1f1f1;
+    margin: 32px 0;
+    padding: 32px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.oq .son h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.main button {
+    margin: 16px 0;
+    background: #f1f1f1;
+    padding: 12px 24px;
+    border: 0;
+    font-size: 15px;
+    color: #000;
+}
+.main .box .my-pri {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.main .box .my-pri .basic {
+    text-align: center;
+    width: 49%;
+    background: white;
+}
+.main .box .my-pri .basic ul li p {
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0;
+    color: #000;
+}
+.main .box .my-pri .basic ul li h2 {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 100;
+}
+.main .box .my-pri .basic ul li .dollor {
+    margin: 20px;
+}
+.main .box .my-pri .basic ul li .dollor span {
+    opacity: .5;
+}
+.main .box .my-pri .basic .fist-bas {
+    background: #616161;
+}
+.main .box .my-pri .basic .fist-bas p {
+    color: white;
+    padding: 32px 0;
+    font-size: 24px;
+}
+.main .box .my-pri .basic ul li button {
+    background: white;
+}
+.main .box .my-pri .basic ul li button:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+.main .box .my-pri .basic ul li:last-child {
+    background: #f1f1f1;
+}
+.main .box .my-pri .basic{
+    opacity: .3;
+}
+.main .box .my-pri .basic:hover{
+    opacity: .99;
+}
+.main .box h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+.reputation{
+    margin-bottom: 150px;
+}
+.reputation .info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.reputation .info .img{
+    height: 80px;
+    width: 80px;
+}
+.reputation .info .img img{
+    border-radius: 50%;
+}
+
+
+
+.reputation .info .img-t{
+    /* color: #fff; */
+}
+.reputation .info .img-t span{
+    color: #fff;
+    display: block;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 15px;
+    opacity: .5;
+}
+.main .photos h4{
+    color: #fff;
+
+}
+.main .photos hr{
+    width: 200px;
+}
+.main .photos .photos1 .photos2{
+    columns: 2;
+
+}
+.main .photos .photos1 .photos2 img{
+    margin-bottom: 10px;
+}
+
+.contact{
+    color: #fff;
+}
+.contact h2{
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.contact hr{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.contact span span {
+
+    
+    opacity: .5;
+}
+
+
+.contact span i{
+   font-size: 40px;
+   margin-right: 20px;
+}
+.main .massege button:hover{
+    background: #757575;
+
+
+}
+.main .massege span{
+    color: #fff;
+    display: block;
+    opacity: .5;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.main .massege input {
+    padding: 16px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main .massege  #in{
+    padding: 18px;
+}
+.main .footer{
+    margin-top: 100px;
+    color: #fff;
+    opacity: .5;
+    font-size: 25px;
+
+}
+.footer div{
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+.footer div a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
